@@ -4,6 +4,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+
+
 - (NSString *)solveTrivia;
+
 
 @end

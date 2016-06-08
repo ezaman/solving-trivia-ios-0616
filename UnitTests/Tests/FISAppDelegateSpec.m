@@ -5,6 +5,7 @@
 #define EXP_SHORTHAND
 #import "Expecta.h"
 
+
 SpecBegin(FISAppDelegate)
 
 describe(@"FISAppDelegate", ^{
@@ -13,6 +14,7 @@ describe(@"FISAppDelegate", ^{
         it(@"returns the only state whose capital contains none of the characters as the state name", ^{
             FISAppDelegate *appDelegate = ((FISAppDelegate*)[UIApplication sharedApplication].delegate);
             expect([appDelegate solveTrivia]).to.equal(@"South Dakota");
+            
         });
     });
     
